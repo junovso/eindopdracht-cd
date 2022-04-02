@@ -14,5 +14,9 @@ def index():
 def info():
     return f"<p>This returns everything of the info page.<p>"
 
+@app.route("/contact")
+def info():
+    return f"<p>This returns everything of the contact page.<p>"
+
 if __name__ == "__main__":
     app.run()
